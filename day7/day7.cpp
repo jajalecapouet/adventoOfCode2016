@@ -64,7 +64,7 @@ int main()
 			{
 				if (aTurn)
 				{
-					if (!a || !b) {
+					if (!a) {
 						a = c;
 						aTurn = false;
 					}
@@ -94,8 +94,6 @@ int main()
 					if (!b) {
 						if (c != a)
 							b = c;
-						else
-							aTurn = true;
 					}
 					else if (b == c)
 						aTurn = true;
